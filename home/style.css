@@ -2,26 +2,49 @@
 * {
     box-sizing: border-box;
 }
-/*---------Barra superior---------*/
+/*---------Barra superior izquierda---------*/
 .top {
     overflow: hidden;
-    background-color: blue;
+    background-color:rgb(155, 155, 1);
 }
-.top img
+.topIzq img
 {
     position: relative;
     float: left;
     margin-right: 5px;
     width: 25px;
     height: 25px;
+    
 }
-.top p {
+.topIzq p {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding-left:100px;
-    text-decoration: none;
+    padding-left:50px;
+    padding-top: 5px;
+}
+
+/*---------Barra superior derecha---------*/
+.topDer
+{
+    overflow: hidden;
+    padding-right: 5%;
+}
+.topDer img
+{
+    position: static;
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin-top: 50%;
+}
+.topDer a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 2% ;
 }
 
 
