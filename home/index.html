@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -38,9 +38,9 @@
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #377FA5;" >
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 144, 221);" >
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="30px" height="30px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -68,10 +68,20 @@
             <a class="nav-link" href="#" tabindex="-1">Contacto</a>
           </li>
         </ul>
-        <div class="d-flex">
-          <a class="dropdown-item" href="#"><img src="img/ig.png" alt=""></a>
-          <a class="dropdown-item" href="#"><img src="img/fb.png" alt=""></a>
-          <a class="dropdown-item" href="#"><img src="img/tw.png" alt=""></a>
+        <style>
+          ul .dropdown-item:hover
+          {
+            background-color: rgb(158, 221, 255);
+          }
+          .dropdown-item:hover
+          {
+            background-color:  rgb(0, 144, 221);
+          };
+        </style>
+        <div class="d-flex" style="margin-right: 50px;" >
+          <a class="dropdown-item" href="https://www.instagram.com/"><img src="img/ig.png" width="15px" height="15px"></a>
+          <a class="dropdown-item" href="https://www.facebook.com/"><img src="img/fb.png" width="15px" height="15px"></a>
+          <a class="dropdown-item" href="https://twitter.com/"><img src="img/tw.png" width="15px" height="15px" ></a>
         </div>
       </div>
     </div>
@@ -104,7 +114,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1 style="color: white; text-shadow: 2px 2px 0px black;">Soluciones al instante</h1>
-            <p style="color: white; text-shadow: 2px 2px 0px black; font-size: 25px;">Te ofrecemos una amplia variedad de soluciones para cuidar tu sonrisa. Desde blanqueamiento dental hasta ortodoncia, pasando por tratamientos como eliminación de caries, colocación de implantes, limpieza bucal, endodoncia o periodoncia. También cuidamos la boca de los más pequeños gracias a nuestros servicios de odontopediatría.</p>
+            <p style="color: white; text-shadow: 2px 2px 0px black; font-size: 25px;">Te ofrecemos una amplia variedad de soluciones para cuidar tu sonrisa. Desde blanqueamiento dental hasta ortodoncia, pasando por tratamientos como eliminación de caries, colocación de implantes, limpieza bucal, endodoncia, etc. También cuidamos la boca de los más pequeños gracias a nuestros servicios de odontopediatría.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Leer más</a></p>
           </div>
         </div>
@@ -145,20 +155,20 @@
 
         <h2>Especialistas</h2>
         <p>Tenemos una plantilla totalemente cualificada y al servicio de nuestros clientes. Aquí podrá ver a todos nuestros increibles trabajadores y trabajadoras que hacen posible que esta empresa sea lo que es hoy en dia, una de las mejores del mercado.</p>
-        <p><a class="btn btn-secondary" href="#" role="button"> Ver en detalle &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="../equipo/equipo.html" role="button"> Conócelos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="img/circulo2.png" width="140" height="140" class="bd-placeholder-img rounded-circle">
         <h2>Ortodoncias</h2>
         <p>Si tiene cualquier tipo de problema dental, aqui le pondremos solución. Podrá ver todo nuestros planes para poner remedio a cualquier tipo de desperfecto bucodental, ya que tenemos una gran variedad de especialidades.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Ver en detalle &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#" role="button">Más información &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="img/circulo3.png" width="140" height="140" class="bd-placeholder-img rounded-circle">
 
-        <h2>Contactanos</h2>
+        <h2>Contáctanos</h2>
         <p>Nuestra ubicación está espeficiada aqui. Y si usted prefiere hacer previamente una consulta online, podrá hacerlo rellenando un secnillo formulario. Tambiénn le ofrecemos nuestro núero de contacto para respodner cualquier tipo de cuestión.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Ver en detalle &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#" role="button">Llámanos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
