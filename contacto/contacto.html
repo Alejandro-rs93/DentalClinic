@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Contacto</title>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link rel="stylesheet" href="css/style.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+
+      <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 144, 221);" >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../home/index.html"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Especialidades
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../especialidades/1protesis.html">Protesis Dentales</a></li>
+                        <li><a class="dropdown-item" href="../especialidades/2periodoncia.html">Periodoncia</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="dropdown-item" href="../especialidades/3endodoncia.html">Endodoncia</a></li>
+                        <li><a class="dropdown-item" href="../especialidades/4odontopediatria.html">Odontopediatría</a></li>
+                        <li><a class="dropdown-item" href="../especialidades/5implantes.html">Implantes Dentales</a></li>
+                        <li><a class="dropdown-item" href="../especialidades/6odontologia.html">Odontología General</a></li>
+                        <li><a class="dropdown-item" href="../especialidades/7estetica.html">Estética Dental</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="../equipo/equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../contacto/contacto.html" tabindex="-1">Contacto</a>
+                    </li>
+                  </ul>
+                  <style>
+                    ul .dropdown-item:hover
+                    {
+                      background-color: rgb(158, 221, 255);
+                    }
+                    .dropdown-item:hover
+                    {
+                      background-color:  rgb(0, 144, 221);
+                    };
+                  </style>
+                  <div class="d-flex" style="margin-right: 50px;" >
+                    <a class="dropdown-item" href="https://www.instagram.com/"><img src="img/ig.png" width="15px" height="15px"></a>
+                    <a class="dropdown-item" href="https://www.facebook.com/"><img src="img/fb.png" width="15px" height="15px"></a>
+                    <a class="dropdown-item" href="https://twitter.com/"><img src="img/tw.png" width="15px" height="15px" ></a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+    
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Contacto</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters mb-5">
+							<div class="col-md-7">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Contact Us</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div id="map">
+			          </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-map-marker"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-phone"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-paper-plane"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-globe"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+    <footer class="container">
+        <p class="float-end"><a href="#"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a></p>
+        <p>&copy; Copyright clinicaAntonio. All Rights Reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
