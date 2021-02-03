@@ -8231,7 +8231,7 @@ textarea.form-control {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #2553b8;
+    background:  rgb(0, 144, 221);
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
@@ -8266,8 +8266,8 @@ textarea.form-control {
     -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
     box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important; }
   .btn.btn-primary {
-    background: #2553b8 !important;
-    border-color: #2553b8 !important;
+    background:  rgb(0, 144, 221) !important;
+    border-color:  rgb(0, 144, 221) !important;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
       border-color: #1c408e !important;
