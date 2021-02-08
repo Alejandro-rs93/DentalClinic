@@ -1,0 +1,43 @@
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+li .nav-link
+{
+  color: white;
+
+}
+li .nav-link:hover
+{
+  color: #D4C5C5;
+  
+}
+
+a .bi-twitter:hover 
+{
+  color: #D4C5C5;
+  fill: #D4C5C5;
+}
+
+a .bi-instagram:hover 
+{
+  color: #D4C5C5;
+  fill: #D4C5C5;
+}
+a .bi-facebook:hover 
+{
+  color: #D4C5C5;
+  fill: #D4C5C5;
+}
+footer
+{
+  padding-top: 10%;
+}
+#boton
+{
+  background-color:rgb(0, 144, 221);
+  border: none;
+}
