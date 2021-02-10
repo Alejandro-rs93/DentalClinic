@@ -148,3 +148,7 @@ a .bi-facebook:hover
   color: #D4C5C5;
   border: none;
 }
+#navbarCollapse
+{
+  text-align: center;
+}
