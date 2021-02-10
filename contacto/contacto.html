@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
   	<title>Contacto</title>
     <meta charset="utf-8">
@@ -11,57 +11,15 @@
     <link rel="stylesheet" href="css/style.css">
 	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          user-select: none;
-        }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-		}
      
-        li .nav-link
-        {
-          color: white;
-
-        }
-        li .nav-link:hover
-        {
-          color: #D4C5C5;
-          
-        }
-		a .bi-twitter:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-
-        a .bi-instagram:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-        a .bi-facebook:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-    </style>
-
-    
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="contacto.css" rel="stylesheet">
   </head>
-  <body>
+
+<body>
     
 <header>
-  <nav class="navbar navbar-expand-md fixed-top" style="background-color: rgb(0, 144, 221);" >
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 144, 221);" >
     <div class="container-fluid">
        <a class="navbar-brand" href="../home/index.html"><img src="img/logo.png" width="40px" height="40px" style="margin-left: -1px;"></a> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,8 +108,8 @@
 											</div>
 											<div class="col-md-6"> 
 												<div class="form-group">
-													<label class="label" for="email">Mail</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Mail">
+													<label class="label" for="email">Correo</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Correo">
 												</div>
 											</div>
 											<div class="col-md-12">
@@ -168,7 +126,7 @@
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<input type="submit" value="Enviar mensaje" class="btn btn-primary">
+													<input id="boton" type="submit" value="Enviar mensaje" class="btn ">
 													<div class="submitting"></div>
 												</div>
 											</div>
@@ -237,7 +195,7 @@
 		</div>
     </section>
     
-    <footer class="container">
+    <footer class="container text-muted  text-small">
         <p class="float-end"><a href="#"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a></p>
         <p>&copy; Copyright clinicaAntonio. All Rights Reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>

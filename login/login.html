@@ -6,39 +6,21 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>Precios</title>
-
+    <title>Login</title>
+  
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> 
     <!-- Custom styles for this template -->
-    <link href="precio.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
   </head>
-  <body>
-    
+
+  <body class="text-center">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 144, 221);" >
         <div class="container-fluid">
            <a class="navbar-brand active" href="../home/index.html"><img src="img/logo.png" width="40px" height="40px" style="margin-left: 15px;"></a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button"   data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -61,7 +43,7 @@
                 <a class="nav-link" aria-current="page" href="../equipo/equipo.html" >Equipo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="precio.html" tabindex="-1">Precios</a>
+                <a class="nav-link" href="../precio/precio.html" tabindex="-1">Precios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../contacto/contacto.html" tabindex="-1">Contacto</a>
@@ -93,84 +75,33 @@
         </div>
       </nav>
     </header>
-
-<main class="container">
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <br>
-    <br>
-    <br>
-    <p>
-      <h1 class="display-4">Precios</h1>
-    </p>
-    <p class="lead">Aqui encontrara nuestros precios con descuentos ya incluidos, recuerde leer bien los recuadros para ver cuales son los que se adecuan mejor a tu estilo.</p>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-    <div class="col">
-      <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 fw-normal">Gratis</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">0€</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>La primera consulta es gratuita</li>
-          <li>Evaluación</li>
-          <li>Modelo 3D</li>
-          <li>10% en limpieza</li>
-          
-        </ul>
-        <!-- <button type="button" id="boton" class="w-100 btn btn-lg btn-primary">Sign up for free</button> -->
-      </div>
+<main class="form-signin">
+  <form>
+    <img class="mb-4" src="img/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 fw-normal">Login</h1>
+    <label for="inputEmail" class="visually-hidden">Correo electronico</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electronico" required autofocus>
+    <label for="inputPassword" class="visually-hidden">Contraseña</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Recordar
+      </label>
     </div>
-    </div>
-    <div class="col">
-      <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 fw-normal">Especialidad</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">90€ <small class="text-muted">/ visita</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Evaluación</li>
-          <li>Asesoramiento</li>
-          <li>Modelo 3D</li>
-          <li>Correción</li>
-          <li>50% en Limpieza</li>
-        </ul>
-        <button type="button" id="boton" class="w-100 btn btn-lg btn-primary">Comprar</button>
-      </div>
-    </div>
-    </div>
-    <div class="col">
-      <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 fw-normal">Operación</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">Consultanos <small class="text-muted"></small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Evaluación</li>
-          <li>Asesoramiento</li>
-          <li>Modelo 3D</li>
-          <li>Correción</li>
-          <li>30% en Especialistas</li>
-          <li>Limpieza</li>
-        </ul>
-        <button type="button" id="boton" class="w-100 btn btn-lg btn-primary">Contactanos</button>
-      </div>
-    </div>
-    </div>
-  </div>
+    <button class="w-100 btn btn-lg " id="boton" type="submit">Entrar</button>
+    <!-- <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p> -->
+  </form>
+  <br>
+  <p><a href="../registro/registro.html">CREAR CUENTA</a></p>
 
   <footer class="container text-muted  text-small">
-    
-    <p class="float-end"><a href="#"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a></p>
+    <hr>
+    <!-- <p class="float-end"><a href="#"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a></p> -->
     <p>&copy; Copyright clinicaAntonio. All Rights Reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
+
 </main>
 
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-    
   </body>
 </html>

@@ -1,74 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-    
-
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-     
-        li .nav-link
-        {
-          color: white;
-
-        }
-        li .nav-link:hover
-        {
-          color: #D4C5C5;
-          
-        }
-
-        a .bi-twitter:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-
-        a .bi-instagram:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-        a .bi-facebook:hover 
-        {
-          color: #D4C5C5;
-          fill: #D4C5C5;
-        }
-
-    </style>
-
+    <!-- Styles-->
+    <link href="home.css" rel="stylesheet">
     
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
   </head>
-  <body style="text-align: justify;">
-    
+
+<body style="text-align: justify;">
 <header>
-  <nav class="navbar navbar-expand-md fixed-top" style="background-color: rgb(0, 144, 221);" >
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 144, 221);" >
     <div class="container-fluid">
        <a class="navbar-brand active" href="index.html"><img src="img/logo.png" width="40px" height="40px" style="margin-left: 15px;"></a> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button"   data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: white;"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -192,7 +143,7 @@
 
         <h2>Especialistas</h2>
         <p>Tenemos una plantilla totalemente cualificada y al servicio de nuestros clientes. Aquí podrá ver a todos nuestros increibles trabajadores y trabajadoras que hacen posible que esta empresa sea lo que es hoy en dia, una de las mejores del mercado.</p>
-        <p><a class="btn" href="../equipo/equipo.html" role="button" style="background-color: rgb(0, 144, 221); color: white;"> Conócelos &raquo;</a></p>
+        <p><a class="btn" href="../equipo/equipo.html" id="boton" role="button" style="background-color: rgb(0, 144, 221); color: white;"> Conócelos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="img/circulo2.png" width="140" height="140" class="bd-placeholder-img rounded-circle">
@@ -262,13 +213,12 @@
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
 
   </div>
 
 
   <!-- FOOTER -->
-  <footer class="container">
+  <footer class="container text-muted  text-small">
     <p class="float-end"><a href="#"><img src="img/logo.png" width="30px" height="30px" style="margin-left: 15px;"></a></p>
     <p>&copy; Copyright clinicaAntonio. All Rights Reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
