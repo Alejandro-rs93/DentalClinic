@@ -42,3 +42,35 @@
 {
   text-align: center;
 }
+
+ul .dropdown-item:hover
+{
+  background-color: rgb(158, 221, 255);
+}
+.dropdown-item:hover
+{
+  background-color:  rgb(0, 144, 221);
+}
+
+header nav
+{
+  background-color: rgb(0, 144, 221);
+}
+.navbar-brand img
+{
+  margin-left: 15px
+}
+
+.d-flex
+{
+  margin-right: 50px;
+}
+.text-muted img 
+{
+  margin-left: 15px
+}
+.card-body
+{
+  text-align: center;
+  background-color: rgba(0, 144, 221, 0.521);
+}
