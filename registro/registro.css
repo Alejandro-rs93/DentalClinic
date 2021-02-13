@@ -72,3 +72,24 @@ nav .navbar
 {
   background-color: rgb(0, 144, 221);
 }
+
+.navbar-brand
+{
+  margin-left: 15px;
+}
+ul .dropdown-item:hover
+{
+  background-color: rgb(158, 221, 255);
+}
+.dropdown-item:hover
+{
+  background-color:  rgb(0, 144, 221);
+}
+.d-flex
+{
+  margin-right: 50px;
+}
+.float-end
+{
+  margin-left: 5px;
+}
